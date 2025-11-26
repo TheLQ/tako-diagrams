@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0" version="29.1.1">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
-    <mxGraphModel dx="926" dy="1026" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2015" dy="1232" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -28,6 +28,9 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="170" y="420" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="GNe9VT0Pfp5oXhNMF5xr-25" edge="1" parent="1" source="iOwAiC6VzzVPGykfBDu5-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="GNe9VT0Pfp5oXhNMF5xr-23" value="d">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="iOwAiC6VzzVPGykfBDu5-1" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="VSurface" vertex="1">
           <mxGeometry height="100" width="160" x="80" y="240" as="geometry" />
@@ -59,14 +62,50 @@
         <mxCell id="GNe9VT0Pfp5oXhNMF5xr-12" parent="GNe9VT0Pfp5oXhNMF5xr-7" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;div&gt;entities: Vec&amp;lt;E&amp;gt;,&lt;/div&gt;&lt;div&gt;xy_to_entity: VArray,&lt;/div&gt;&lt;div&gt;radius: u32&lt;/div&gt;" vertex="1">
           <mxGeometry height="30" width="130" x="6" y="30" as="geometry" />
         </mxCell>
-        <mxCell id="GNe9VT0Pfp5oXhNMF5xr-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;div align=&quot;left&quot;&gt;inner: enum BackingMemory {&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp; &amp;nbsp; RegularOldeVec {&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; data: Box&amp;lt;[usize]&amp;gt;,&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; is_dirty: bool,&lt;br&gt;&amp;nbsp; &amp;nbsp; },&lt;br&gt;&amp;nbsp; &amp;nbsp; Mmap {&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; mmap: MmapMut,&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; data: ManuallyDrop&amp;lt;Box&amp;lt;[usize]&amp;gt;&amp;gt;,&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; backing_path: PathBuf,&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; is_dirty: bool,&lt;br&gt;&amp;nbsp; &amp;nbsp; },&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;}&amp;nbsp;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="170" width="230" x="340" y="500" as="geometry" />
-        </mxCell>
         <mxCell id="GNe9VT0Pfp5oXhNMF5xr-11" edge="1" parent="1" source="iOwAiC6VzzVPGykfBDu5-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="GNe9VT0Pfp5oXhNMF5xr-7" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GNe9VT0Pfp5oXhNMF5xr-13" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="VArray" vertex="1">
-          <mxGeometry height="205" width="230" x="340" y="475" as="geometry" />
+          <mxGeometry height="205" width="230" x="340" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="GNe9VT0Pfp5oXhNMF5xr-15" parent="GNe9VT0Pfp5oXhNMF5xr-13" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;div align=&quot;left&quot;&gt;inner: enum BackingMemory {&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&amp;nbsp; &amp;nbsp; RegularOldeVec {&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; data: Box&amp;lt;[usize]&amp;gt;,&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; is_dirty: bool,&lt;br&gt;&amp;nbsp; &amp;nbsp; },&lt;br&gt;&amp;nbsp; &amp;nbsp; Mmap {&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; mmap: MmapMut,&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; data: ManuallyDrop&amp;lt;Box&amp;lt;[usize]&amp;gt;&amp;gt;,&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; backing_path: PathBuf,&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; is_dirty: bool,&lt;br&gt;&amp;nbsp; &amp;nbsp; },&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;}&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="170" width="230" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GNe9VT0Pfp5oXhNMF5xr-20" edge="1" parent="1" source="iOwAiC6VzzVPGykfBDu5-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="GNe9VT0Pfp5oXhNMF5xr-19" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GNe9VT0Pfp5oXhNMF5xr-22" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="70" width="160" x="610" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="GNe9VT0Pfp5oXhNMF5xr-19" parent="GNe9VT0Pfp5oXhNMF5xr-22" style="swimlane;whiteSpace=wrap;html=1;" value="VPatch" vertex="1">
+          <mxGeometry height="70" width="160" as="geometry" />
+        </mxCell>
+        <mxCell id="GNe9VT0Pfp5oXhNMF5xr-21" parent="GNe9VT0Pfp5oXhNMF5xr-22" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;div&gt;resource: Pixel,&lt;/div&gt;&lt;div&gt;area: VArea,&lt;/div&gt;&lt;div&gt;pixel_indexes: Vec&amp;lt;VPoint&amp;gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="52.5" width="160" y="17.5" as="geometry" />
+        </mxCell>
+        <mxCell id="GNe9VT0Pfp5oXhNMF5xr-28" edge="1" parent="1" source="GNe9VT0Pfp5oXhNMF5xr-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="GNe9VT0Pfp5oXhNMF5xr-26" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GNe9VT0Pfp5oXhNMF5xr-23" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="MinePath" vertex="1">
+          <mxGeometry height="100" width="160" x="850" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="GNe9VT0Pfp5oXhNMF5xr-24" parent="GNe9VT0Pfp5oXhNMF5xr-23" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="location: MineLocation,&lt;br&gt;links: Vec&amp;lt;HopeLink&amp;gt;,&lt;br&gt;sodas: Vec&amp;lt;HopeSodaLink&amp;gt;,&lt;br&gt;segment: VSegment,&lt;br&gt;cost: u32," vertex="1">
+          <mxGeometry height="62" width="160" y="28" as="geometry" />
+        </mxCell>
+        <mxCell id="GNe9VT0Pfp5oXhNMF5xr-26" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="MineLocation" vertex="1">
+          <mxGeometry height="140" width="180" x="840" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="GNe9VT0Pfp5oXhNMF5xr-27" parent="GNe9VT0Pfp5oXhNMF5xr-26" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="patch_indexes: Vec&amp;lt;usize&amp;gt;,&lt;br&gt;area_min: VArea,&lt;br&gt;area_no_touch: VArea,&lt;br&gt;area_buffered: VArea,&lt;br&gt;endpoints: Vec&amp;lt;VPoint&amp;gt;,&lt;br&gt;&lt;div&gt;endpoints_adjust_direction:&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; Vec&amp;lt;FacDirectionQuarter&amp;gt;,&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="240" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GNe9VT0Pfp5oXhNMF5xr-29" parent="1" style="line;strokeWidth=2;html=1;" value="" vertex="1">
+          <mxGeometry height="10" width="1170" x="20" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="GNe9VT0Pfp5oXhNMF5xr-31" parent="1" style="line;strokeWidth=2;html=1;" value="" vertex="1">
+          <mxGeometry height="10" width="1170" x="10" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="GNe9VT0Pfp5oXhNMF5xr-36" parent="1" style="html=1;whiteSpace=wrap;" value="Core" vertex="1">
+          <mxGeometry height="50" width="110" x="20" y="150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
