@@ -110,7 +110,7 @@
         <mxCell id="GNe9VT0Pfp5oXhNMF5xr-37" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="fac-engine" vertex="1">
           <mxGeometry height="50" width="110" x="40" y="960" as="geometry" />
         </mxCell>
-        <mxCell id="GNe9VT0Pfp5oXhNMF5xr-38" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Core - Navigator" vertex="1">
+        <mxCell id="GNe9VT0Pfp5oXhNMF5xr-38" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Navigator Machine" vertex="1">
           <mxGeometry height="50" width="110" x="60" y="-940" as="geometry" />
         </mxCell>
         <mxCell id="GNe9VT0Pfp5oXhNMF5xr-39" parent="1" style="line;strokeWidth=2;html=1;" value="" vertex="1">
@@ -275,7 +275,7 @@
         <mxCell id="vmBOe0Nw1XkvWy-2EtKB-77" parent="1" style="line;strokeWidth=2;html=1;" value="" vertex="1">
           <mxGeometry height="10" width="1170" x="40" y="-420" as="geometry" />
         </mxCell>
-        <mxCell id="vmBOe0Nw1XkvWy-2EtKB-78" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Core - Pathfinding" vertex="1">
+        <mxCell id="vmBOe0Nw1XkvWy-2EtKB-78" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Navigator Engine" vertex="1">
           <mxGeometry height="50" width="110" x="40" y="-410" as="geometry" />
         </mxCell>
         <mxCell id="vmBOe0Nw1XkvWy-2EtKB-79" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Pathfinder - Mori" vertex="1">
