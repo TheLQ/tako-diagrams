@@ -71,7 +71,7 @@
         <mxCell id="BPaV9QTE5qX1GpOqNvk2-12" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="space" vertex="1">
           <mxGeometry height="140" width="190" x="40" y="-880" as="geometry" />
         </mxCell>
-        <mxCell id="BPaV9QTE5qX1GpOqNvk2-13" parent="BPaV9QTE5qX1GpOqNvk2-12" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;div&gt;publish_id&amp;nbsp;-&amp;gt; Unsigned&amp;lt;Integer&amp;gt;,&lt;/div&gt;&lt;/div&gt;&lt;div&gt;space_id -&amp;gt; Unsigned&amp;lt;Integer&amp;gt;,&lt;/div&gt;&lt;div&gt;#[max_length = 50]&lt;/div&gt;project_name -&amp;gt; Varchar,&lt;br&gt;description -&amp;gt; Text," vertex="1">
+        <mxCell id="BPaV9QTE5qX1GpOqNvk2-13" parent="BPaV9QTE5qX1GpOqNvk2-12" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;div&gt;publish_id&amp;nbsp;-&amp;gt; Unsigned&amp;lt;Integer&amp;gt;,&lt;/div&gt;&lt;/div&gt;&lt;div&gt;space_id -&amp;gt; Unsigned&amp;lt;Integer&amp;gt;,&lt;/div&gt;&lt;div&gt;#[max_length = 50]&lt;/div&gt;space_name -&amp;gt; Varchar,&lt;br&gt;description -&amp;gt; Text," vertex="1">
           <mxGeometry height="110" width="190" y="30" as="geometry" />
         </mxCell>
         <mxCell id="BPaV9QTE5qX1GpOqNvk2-20" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="space_owned" vertex="1">
@@ -86,16 +86,16 @@
         <mxCell id="BPaV9QTE5qX1GpOqNvk2-23" parent="BPaV9QTE5qX1GpOqNvk2-22" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;publish_id&amp;nbsp;-&amp;gt; Unsigned&amp;lt;Integer&amp;gt;,&lt;/div&gt;&lt;div&gt;at -&amp;gt; Timestamp,&lt;/div&gt;&lt;div&gt;#[max_length = 100]&lt;/div&gt;&lt;div&gt;cause_xrn -&amp;gt; Nullable&amp;lt;Varchar&amp;gt;,&lt;/div&gt;&lt;div&gt;cause_description -&amp;gt; Text,&lt;/div&gt;" vertex="1">
           <mxGeometry height="110" width="190" y="30" as="geometry" />
         </mxCell>
-        <mxCell id="BPaV9QTE5qX1GpOqNvk2-24" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="injest_data_immutable /&amp;nbsp;&lt;br&gt;injest_data_upgraded" vertex="1">
+        <mxCell id="BPaV9QTE5qX1GpOqNvk2-24" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="journal_data_immutable" vertex="1">
           <mxGeometry height="140" width="210" x="40" y="-1320" as="geometry" />
         </mxCell>
-        <mxCell id="BPaV9QTE5qX1GpOqNvk2-25" parent="BPaV9QTE5qX1GpOqNvk2-24" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;publish_id&amp;nbsp;-&amp;gt; Unsigned&amp;lt;Integer&amp;gt;,&lt;/div&gt;&lt;div&gt;injest_id -&amp;gt; Unsigned&amp;lt;Integer&amp;gt;,&lt;/div&gt;&lt;div&gt;&lt;div&gt;injest_type -&amp;gt; Unsigned&amp;lt;Integer&amp;gt;,&lt;/div&gt;data -&amp;gt; Blob,&lt;/div&gt;" vertex="1">
+        <mxCell id="BPaV9QTE5qX1GpOqNvk2-25" parent="BPaV9QTE5qX1GpOqNvk2-24" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;publish_id&amp;nbsp;-&amp;gt; Unsigned&amp;lt;Integer&amp;gt;,&lt;/div&gt;&lt;div&gt;journal_id -&amp;gt; Unsigned&amp;lt;Integer&amp;gt;,&lt;/div&gt;&lt;div&gt;&lt;div&gt;journal_type -&amp;gt; Unsigned&amp;lt;Integer&amp;gt;,&lt;/div&gt;data -&amp;gt; Blob,&lt;/div&gt;" vertex="1">
           <mxGeometry height="110" width="210" y="30" as="geometry" />
         </mxCell>
-        <mxCell id="BPaV9QTE5qX1GpOqNvk2-28" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="injest_types" vertex="1">
+        <mxCell id="BPaV9QTE5qX1GpOqNvk2-28" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="journal_types" vertex="1">
           <mxGeometry height="140" width="210" x="280" y="-1480" as="geometry" />
         </mxCell>
-        <mxCell id="BPaV9QTE5qX1GpOqNvk2-29" parent="BPaV9QTE5qX1GpOqNvk2-28" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;injest_type -&amp;gt; Unsigned&amp;lt;Integer&amp;gt;,&lt;/div&gt;&lt;div&gt;#[max_length = 20]&lt;/div&gt;&lt;div&gt;name -&amp;gt; Varchar,&lt;br&gt;---&lt;/div&gt;&lt;div&gt;firefox_history_v1,&lt;/div&gt;&lt;div&gt;nh_data_v1,&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="BPaV9QTE5qX1GpOqNvk2-29" parent="BPaV9QTE5qX1GpOqNvk2-28" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;journal_type -&amp;gt; Unsigned&amp;lt;Integer&amp;gt;,&lt;/div&gt;&lt;div&gt;#[max_length = 20]&lt;/div&gt;&lt;div&gt;name -&amp;gt; Varchar,&lt;br&gt;---&lt;/div&gt;&lt;div&gt;firefox_history_v1,&lt;/div&gt;&lt;div&gt;nh_data_v1,&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="110" width="210" y="30" as="geometry" />
         </mxCell>
         <mxCell id="BPaV9QTE5qX1GpOqNvk2-30" parent="1" style="line;strokeWidth=2;html=1;" value="" vertex="1">
@@ -128,10 +128,10 @@
         <mxCell id="BPaV9QTE5qX1GpOqNvk2-39" parent="BPaV9QTE5qX1GpOqNvk2-38" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;div&gt;tor_status_type -&amp;gt; Unsigned&amp;lt;Integer&amp;gt;,&lt;/div&gt;&lt;div&gt;#[max_length = 50]&lt;/div&gt;&lt;div&gt;name -&amp;gt; Varchar&lt;/div&gt;--&lt;/div&gt;&lt;div&gt;downloading,&lt;/div&gt;&lt;div&gt;seeding,&lt;/div&gt;&lt;div&gt;blocked&lt;/div&gt;" vertex="1">
           <mxGeometry height="110" width="240" y="30" as="geometry" />
         </mxCell>
-        <mxCell id="BPaV9QTE5qX1GpOqNvk2-40" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="injest_complete" vertex="1">
-          <mxGeometry height="70" width="210" x="280" y="-1320" as="geometry" />
+        <mxCell id="BPaV9QTE5qX1GpOqNvk2-40" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="journal_complete" vertex="1">
+          <mxGeometry height="70" width="210" x="590" y="-1320" as="geometry" />
         </mxCell>
-        <mxCell id="BPaV9QTE5qX1GpOqNvk2-41" parent="BPaV9QTE5qX1GpOqNvk2-40" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;div&gt;publish_id&amp;nbsp;-&amp;gt; Unsigned&amp;lt;Integer&amp;gt;,&lt;/div&gt;&lt;/div&gt;&lt;div&gt;injest_id -&amp;gt; Unsigned&amp;lt;Integer&amp;gt;,&lt;/div&gt;" vertex="1">
+        <mxCell id="BPaV9QTE5qX1GpOqNvk2-41" parent="BPaV9QTE5qX1GpOqNvk2-40" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;div&gt;publish_id&amp;nbsp;-&amp;gt; Unsigned&amp;lt;Integer&amp;gt;,&lt;/div&gt;&lt;/div&gt;&lt;div&gt;journal_id -&amp;gt; Unsigned&amp;lt;Integer&amp;gt;,&lt;/div&gt;" vertex="1">
           <mxGeometry height="40" width="210" y="30" as="geometry" />
         </mxCell>
         <mxCell id="BPaV9QTE5qX1GpOqNvk2-42" parent="1" style="line;strokeWidth=2;html=1;" value="" vertex="1">
@@ -166,6 +166,12 @@
         </mxCell>
         <mxCell id="8RalGnTvDnm3HFYThMVI-8" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="browser" vertex="1">
           <mxGeometry height="60" width="120" x="40" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="8RalGnTvDnm3HFYThMVI-9" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="journal_data_immutable" vertex="1">
+          <mxGeometry height="140" width="260" x="280" y="-1320" as="geometry" />
+        </mxCell>
+        <mxCell id="8RalGnTvDnm3HFYThMVI-10" parent="8RalGnTvDnm3HFYThMVI-9" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;publish_id&amp;nbsp;-&amp;gt; Unsigned&amp;lt;Integer&amp;gt;,&lt;/div&gt;&lt;div&gt;journal_id -&amp;gt; Unsigned&amp;lt;Integer&amp;gt;,&lt;/div&gt;&lt;div&gt;overwrites_injest_id -&amp;gt; Unsigned&amp;lt;Integer&amp;gt;,&lt;/div&gt;&lt;div&gt;&lt;div&gt;injest_type -&amp;gt; Unsigned&amp;lt;Integer&amp;gt;,&lt;/div&gt;data -&amp;gt; Blob,&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="260" y="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
