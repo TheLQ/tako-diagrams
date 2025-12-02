@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0" version="29.2.1">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
-    <mxGraphModel dx="1234" dy="3310" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="732" dy="3569" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -172,6 +172,18 @@
         </mxCell>
         <mxCell id="8RalGnTvDnm3HFYThMVI-10" parent="8RalGnTvDnm3HFYThMVI-9" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;publish_id&amp;nbsp;-&amp;gt; Unsigned&amp;lt;Integer&amp;gt;,&lt;/div&gt;&lt;div&gt;journal_id -&amp;gt; Unsigned&amp;lt;Integer&amp;gt;,&lt;/div&gt;&lt;div&gt;overwrites_injest_id -&amp;gt; Unsigned&amp;lt;Integer&amp;gt;,&lt;/div&gt;&lt;div&gt;&lt;div&gt;injest_type -&amp;gt; Unsigned&amp;lt;Integer&amp;gt;,&lt;/div&gt;data -&amp;gt; Blob,&lt;/div&gt;" vertex="1">
           <mxGeometry height="110" width="260" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8gzMkvfXzDzY0ZJ2qtMq-6" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Database&lt;div&gt;High Level Design&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="40" y="-2270" as="geometry" />
+        </mxCell>
+        <mxCell id="8gzMkvfXzDzY0ZJ2qtMq-7" parent="1" style="line;strokeWidth=2;html=1;" value="" vertex="1">
+          <mxGeometry height="10" width="830" x="40" y="-2280" as="geometry" />
+        </mxCell>
+        <mxCell id="8gzMkvfXzDzY0ZJ2qtMq-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;publish_log&lt;/div&gt;tracable change" vertex="1">
+          <mxGeometry height="60" width="120" x="350" y="-2230" as="geometry" />
+        </mxCell>
+        <mxCell id="8gzMkvfXzDzY0ZJ2qtMq-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="journal_immutable" vertex="1">
+          <mxGeometry height="60" width="120" x="120" y="-2110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
