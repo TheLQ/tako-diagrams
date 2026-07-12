@@ -1,9 +1,42 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0" version="29.1.1">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
-    <mxGraphModel dx="781" dy="2400" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="846" dy="2365" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="v3Tol91V-TR1hirwzvUr-113" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Chests" vertex="1">
+          <mxGeometry height="380" width="220" x="16.5" y="2750" as="geometry" />
+        </mxCell>
+        <mxCell id="v3Tol91V-TR1hirwzvUr-103" parent="v3Tol91V-TR1hirwzvUr-113" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" value="FacEntChest {&lt;br&gt;&amp;nbsp; &amp;nbsp; ctype: FacEntChestType,&lt;br&gt;}" vertex="1">
+          <mxGeometry height="60" width="160" x="20" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v3Tol91V-TR1hirwzvUr-104" parent="v3Tol91V-TR1hirwzvUr-113" style="rounded=0;whiteSpace=wrap;html=1;" value="FacEntChestType::Wood" vertex="1">
+          <mxGeometry height="20" width="160" x="20" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="v3Tol91V-TR1hirwzvUr-105" parent="v3Tol91V-TR1hirwzvUr-113" style="rounded=0;whiteSpace=wrap;html=1;" value="FacEntChestType::Iron" vertex="1">
+          <mxGeometry height="20" width="160" x="20" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="v3Tol91V-TR1hirwzvUr-106" parent="v3Tol91V-TR1hirwzvUr-113" style="rounded=0;whiteSpace=wrap;html=1;" value="FacEntChestType::Steel" vertex="1">
+          <mxGeometry height="20" width="160" x="20" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="v3Tol91V-TR1hirwzvUr-107" parent="v3Tol91V-TR1hirwzvUr-113" style="rounded=0;whiteSpace=wrap;html=1;" value="FacEntChestType::Active" vertex="1">
+          <mxGeometry height="20" width="160" x="20" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="v3Tol91V-TR1hirwzvUr-108" parent="v3Tol91V-TR1hirwzvUr-113" style="rounded=0;whiteSpace=wrap;html=1;" value="FacEntChestType::Passive" vertex="1">
+          <mxGeometry height="20" width="160" x="20" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="v3Tol91V-TR1hirwzvUr-109" parent="v3Tol91V-TR1hirwzvUr-113" style="rounded=0;whiteSpace=wrap;html=1;" value="FacEntChestType::Storage" vertex="1">
+          <mxGeometry height="20" width="160" x="20" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="v3Tol91V-TR1hirwzvUr-110" parent="v3Tol91V-TR1hirwzvUr-113" style="rounded=0;whiteSpace=wrap;html=1;" value="FacEntChestType::Buffer" vertex="1">
+          <mxGeometry height="20" width="160" x="20" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="v3Tol91V-TR1hirwzvUr-111" parent="v3Tol91V-TR1hirwzvUr-113" style="rounded=0;whiteSpace=wrap;html=1;" value="FacEntChestType::Requester" vertex="1">
+          <mxGeometry height="20" width="160" x="20" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="v3Tol91V-TR1hirwzvUr-112" parent="v3Tol91V-TR1hirwzvUr-113" style="rounded=0;whiteSpace=wrap;html=1;" value="FacEntChestType::Infinity" vertex="1">
+          <mxGeometry height="20" width="160" x="20" y="350" as="geometry" />
+        </mxCell>
         <mxCell id="iOwAiC6VzzVPGykfBDu5-6" edge="1" parent="1" source="iOwAiC6VzzVPGykfBDu5-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="iOwAiC6VzzVPGykfBDu5-2" value="">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="170" y="660" as="targetPoint" />
@@ -237,7 +270,7 @@
         <mxCell id="vmBOe0Nw1XkvWy-2EtKB-67" parent="GNe9VT0Pfp5oXhNMF5xr-79" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=3;" value="" vertex="1">
           <mxGeometry height="20" width="20" x="17" y="100" as="geometry" />
         </mxCell>
-        <mxCell id="vmBOe0Nw1XkvWy-2EtKB-74" parent="GNe9VT0Pfp5oXhNMF5xr-79" style="whiteSpace=wrap;html=1;" value="Select Best:&lt;br&gt;&lt;div&gt;-Most Paths&lt;/div&gt;&lt;div&gt;-Lowest Cost&lt;/div&gt;" vertex="1">
+        <mxCell id="vmBOe0Nw1XkvWy-2EtKB-74" parent="GNe9VT0Pfp5oXhNMF5xr-79" style="whiteSpace=wrap;html=1;" value="Select Best:&lt;div&gt;-Lowest Cost&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="110" x="380" y="80" as="geometry" />
         </mxCell>
         <mxCell id="vmBOe0Nw1XkvWy-2EtKB-75" edge="1" parent="GNe9VT0Pfp5oXhNMF5xr-79" source="vmBOe0Nw1XkvWy-2EtKB-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="vmBOe0Nw1XkvWy-2EtKB-74" value="">
@@ -397,17 +430,207 @@
         <mxCell id="vmBOe0Nw1XkvWy-2EtKB-123" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Factorio Executor" vertex="1">
           <mxGeometry height="50" width="90" x="590" y="1040" as="geometry" />
         </mxCell>
-        <mxCell id="vmBOe0Nw1XkvWy-2EtKB-127" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="FacSurfaceCreateEntity" vertex="1">
-          <mxGeometry height="50" width="163" x="290" y="1140" as="geometry" />
+        <mxCell id="v3Tol91V-TR1hirwzvUr-102" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Belts" vertex="1">
+          <mxGeometry height="670" width="280" x="280" y="2230" as="geometry">
+            <mxRectangle height="30" width="70" x="290" y="1220" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="vmBOe0Nw1XkvWy-2EtKB-128" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="FacSurfaceCreateTile" vertex="1">
-          <mxGeometry height="50" width="163" x="290" y="1200" as="geometry" />
+        <mxCell id="v3Tol91V-TR1hirwzvUr-96" parent="v3Tol91V-TR1hirwzvUr-102" style="rounded=0;whiteSpace=wrap;html=1;" value="FacEntBeltType::Express" vertex="1">
+          <mxGeometry height="20" width="160" x="20" y="100" as="geometry" />
         </mxCell>
-        <mxCell id="vmBOe0Nw1XkvWy-2EtKB-129" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="FacDestroy" vertex="1">
-          <mxGeometry height="50" width="163" x="290" y="1270" as="geometry" />
+        <mxCell id="v3Tol91V-TR1hirwzvUr-97" parent="v3Tol91V-TR1hirwzvUr-102" style="rounded=0;whiteSpace=wrap;html=1;" value="FacEntBeltType::Fast" vertex="1">
+          <mxGeometry height="20" width="160" x="20" y="70" as="geometry" />
         </mxCell>
-        <mxCell id="vmBOe0Nw1XkvWy-2EtKB-130" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="BaseScanner" vertex="1">
-          <mxGeometry height="50" width="163" x="290" y="1330" as="geometry" />
+        <mxCell id="v3Tol91V-TR1hirwzvUr-98" parent="v3Tol91V-TR1hirwzvUr-102" style="rounded=0;whiteSpace=wrap;html=1;" value="FacEntBeltType::Basic" vertex="1">
+          <mxGeometry height="20" width="160" x="20" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="v3Tol91V-TR1hirwzvUr-8" parent="v3Tol91V-TR1hirwzvUr-102" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;" value="&lt;div align=&quot;left&quot;&gt;FacEntBeltTransport {&lt;br&gt;&amp;nbsp; &amp;nbsp; btype: FacEntBeltType,&lt;br&gt;&amp;nbsp; &amp;nbsp; direction: FacDirectionQuarter,&lt;br&gt;&lt;div&gt;}&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="250" x="20" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="v3Tol91V-TR1hirwzvUr-9" parent="v3Tol91V-TR1hirwzvUr-102" style="rounded=0;whiteSpace=wrap;html=1;" value="FacEntBeltUnderType::Input" vertex="1">
+          <mxGeometry height="20" width="180" x="60" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="v3Tol91V-TR1hirwzvUr-95" parent="v3Tol91V-TR1hirwzvUr-102" style="rounded=0;whiteSpace=wrap;html=1;" value="FacEntBeltUnderType::Output" vertex="1">
+          <mxGeometry height="20" width="180" x="60" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="v3Tol91V-TR1hirwzvUr-89" parent="v3Tol91V-TR1hirwzvUr-102" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;container=0;" value="FacEntBeltUnder {&lt;br&gt;&amp;nbsp; &amp;nbsp; btype: FacEntBeltType,&lt;br&gt;&amp;nbsp; &amp;nbsp; direction: FacDirectionQuarter,&lt;br&gt;&amp;nbsp; &amp;nbsp; utype: FacEntBeltUnderType,&lt;br&gt;&lt;div&gt;}&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="250" x="20" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="v3Tol91V-TR1hirwzvUr-7" parent="v3Tol91V-TR1hirwzvUr-102" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;" value="FacEntBeltSplit {&lt;br&gt;&amp;nbsp; &amp;nbsp; btype: FacEntBeltType,&lt;br&gt;&amp;nbsp; &amp;nbsp; direction: FacDirectionQuarter,&lt;br&gt;&amp;nbsp; &amp;nbsp; priority: Option&amp;lt;FacEntBeltSplitPriority&amp;gt;,&lt;br&gt;&lt;div&gt;}&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;FacEntBeltSplitPriority {&lt;br&gt;&amp;nbsp; &amp;nbsp; pub input: FacExtPriority,&lt;br&gt;&amp;nbsp; &amp;nbsp; pub output: FacExtPriority,&lt;br&gt;}&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="170" width="250" x="20" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="v3Tol91V-TR1hirwzvUr-90" parent="v3Tol91V-TR1hirwzvUr-102" style="rounded=0;whiteSpace=wrap;html=1;container=0;" value="FacExtPriority::Left" vertex="1">
+          <mxGeometry height="20" width="150" x="60" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="v3Tol91V-TR1hirwzvUr-93" parent="v3Tol91V-TR1hirwzvUr-102" style="rounded=0;whiteSpace=wrap;html=1;container=0;" value="FacExtPriority::Right" vertex="1">
+          <mxGeometry height="20" width="150" x="60" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="v3Tol91V-TR1hirwzvUr-94" parent="v3Tol91V-TR1hirwzvUr-102" style="rounded=0;whiteSpace=wrap;html=1;container=0;" value="FacExtPriority::None" vertex="1">
+          <mxGeometry height="20" width="150" x="60" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="v3Tol91V-TR1hirwzvUr-122" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Electric" vertex="1">
+          <mxGeometry height="280" width="233" x="587" y="2240" as="geometry" />
+        </mxCell>
+        <mxCell id="v3Tol91V-TR1hirwzvUr-121" parent="v3Tol91V-TR1hirwzvUr-122" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;" value="FacEntElectricLarge {&lt;br&gt;&amp;nbsp; &amp;nbsp; etype: FacEntElectricLargeType,&lt;br&gt;}" vertex="1">
+          <mxGeometry height="60" width="211" x="13" y="32" as="geometry" />
+        </mxCell>
+        <mxCell id="v3Tol91V-TR1hirwzvUr-123" parent="v3Tol91V-TR1hirwzvUr-122" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;" value="FacEntElectricMini {&lt;br&gt;&amp;nbsp; &amp;nbsp; ptype: FacEntElectricMiniType,&lt;br&gt;&lt;div&gt;}&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="211" x="11" y="122" as="geometry" />
+        </mxCell>
+        <mxCell id="v3Tol91V-TR1hirwzvUr-124" parent="v3Tol91V-TR1hirwzvUr-122" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;align=left;" value="FacEntInfinityPower {}" vertex="1">
+          <mxGeometry height="20" width="211" x="11" y="202" as="geometry" />
+        </mxCell>
+        <mxCell id="v3Tol91V-TR1hirwzvUr-159" parent="v3Tol91V-TR1hirwzvUr-122" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;align=left;" value="FacEntSolar {}" vertex="1">
+          <mxGeometry height="20" width="211" x="13" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="v3Tol91V-TR1hirwzvUr-125" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Inserter" vertex="1">
+          <mxGeometry height="330" width="222" x="309" y="2930" as="geometry" />
+        </mxCell>
+        <mxCell id="v3Tol91V-TR1hirwzvUr-130" parent="v3Tol91V-TR1hirwzvUr-125" style="rounded=0;whiteSpace=wrap;html=1;" value="FacEntInserterType::Basic" vertex="1">
+          <mxGeometry height="20" width="180" x="30" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="v3Tol91V-TR1hirwzvUr-126" parent="v3Tol91V-TR1hirwzvUr-125" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;" value="FacEntInserter {&lt;br&gt;&amp;nbsp; &amp;nbsp; itype: FacEntInserterType,&lt;br&gt;&amp;nbsp; &amp;nbsp; direction: FacDirectionQuarter,&lt;br&gt;}" vertex="1">
+          <mxGeometry height="70" width="190" x="10" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="v3Tol91V-TR1hirwzvUr-129" parent="v3Tol91V-TR1hirwzvUr-125" style="rounded=0;whiteSpace=wrap;html=1;" value="FacEntInserterType::Burner" vertex="1">
+          <mxGeometry height="20" width="180" x="30" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="v3Tol91V-TR1hirwzvUr-131" parent="v3Tol91V-TR1hirwzvUr-125" style="rounded=0;whiteSpace=wrap;html=1;" value="FacEntInserterType::Long" vertex="1">
+          <mxGeometry height="20" width="180" x="30" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="v3Tol91V-TR1hirwzvUr-132" parent="v3Tol91V-TR1hirwzvUr-125" style="rounded=0;whiteSpace=wrap;html=1;" value="FacEntInserterType::Fast" vertex="1">
+          <mxGeometry height="20" width="180" x="30" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="v3Tol91V-TR1hirwzvUr-133" parent="v3Tol91V-TR1hirwzvUr-125" style="rounded=0;whiteSpace=wrap;html=1;" value="FacEntInserterType::Filter" vertex="1">
+          <mxGeometry height="20" width="180" x="30" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="v3Tol91V-TR1hirwzvUr-134" parent="v3Tol91V-TR1hirwzvUr-125" style="rounded=0;whiteSpace=wrap;html=1;" value="FacEntInserterType::Stack" vertex="1">
+          <mxGeometry height="20" width="180" x="30" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="v3Tol91V-TR1hirwzvUr-135" parent="v3Tol91V-TR1hirwzvUr-125" style="rounded=0;whiteSpace=wrap;html=1;" value="FacEntInserterType::StackFilter" vertex="1">
+          <mxGeometry height="20" width="180" x="30" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="v3Tol91V-TR1hirwzvUr-141" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" value="FacEntLamp {}" vertex="1">
+          <mxGeometry height="30" width="210" x="16.5" y="2310" as="geometry" />
+        </mxCell>
+        <mxCell id="v3Tol91V-TR1hirwzvUr-158" edge="1" parent="1" source="v3Tol91V-TR1hirwzvUr-142" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="770" y="2830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v3Tol91V-TR1hirwzvUr-142" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Rail - Core" vertex="1">
+          <mxGeometry height="450" width="260" x="573.5" y="2800" as="geometry" />
+        </mxCell>
+        <mxCell id="v3Tol91V-TR1hirwzvUr-99" parent="v3Tol91V-TR1hirwzvUr-142" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" value="&lt;div&gt;FacEntRailCurved {&lt;br&gt;&amp;nbsp; &amp;nbsp; direction: FacDirectionEighth,&lt;br&gt;}&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="210" x="20" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="v3Tol91V-TR1hirwzvUr-143" parent="v3Tol91V-TR1hirwzvUr-142" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" value="FacEntRailStraight {&lt;br&gt;&amp;nbsp; &amp;nbsp; direction: FacDirectionEighth,&lt;br&gt;}" vertex="1">
+          <mxGeometry height="70" width="230" x="20" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="v3Tol91V-TR1hirwzvUr-147" parent="v3Tol91V-TR1hirwzvUr-142" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" value="FacEntRailSignal {&lt;br&gt;&amp;nbsp; &amp;nbsp; stype: FacEntRailSignalType,&lt;br&gt;&amp;nbsp; &amp;nbsp; direction: FacDirectionQuarter,&lt;br&gt;}" vertex="1">
+          <mxGeometry height="70" width="230" x="20" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="v3Tol91V-TR1hirwzvUr-148" parent="v3Tol91V-TR1hirwzvUr-142" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;" value="FacEntRailSignalType::Basic" vertex="1">
+          <mxGeometry height="20" width="230" x="20" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="v3Tol91V-TR1hirwzvUr-149" parent="v3Tol91V-TR1hirwzvUr-142" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;" value="FacEntRailSignalType::Chain" vertex="1">
+          <mxGeometry height="20" width="230" x="20" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="v3Tol91V-TR1hirwzvUr-150" parent="v3Tol91V-TR1hirwzvUr-142" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" value="FacEntTrainStop {&lt;br&gt;&amp;nbsp; &amp;nbsp; direction: FacDirectionQuarter,&lt;br&gt;&amp;nbsp; &amp;nbsp; station_name: String,&lt;br&gt;}" vertex="1">
+          <mxGeometry height="70" width="230" x="20" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="v3Tol91V-TR1hirwzvUr-144" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Locomotive" vertex="1">
+          <mxGeometry height="200" width="263" x="578.5" y="2570" as="geometry" />
+        </mxCell>
+        <mxCell id="v3Tol91V-TR1hirwzvUr-145" parent="v3Tol91V-TR1hirwzvUr-144" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" value="&lt;div&gt;FacEntWagon {}&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="210" x="8" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="v3Tol91V-TR1hirwzvUr-146" parent="v3Tol91V-TR1hirwzvUr-144" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" value="FacEntLocomotive {&lt;br&gt;&amp;nbsp; &amp;nbsp; schedule: Option&amp;lt;FacBpSchedule&amp;gt;,&lt;br&gt;}&lt;br&gt;&lt;i&gt;(Schedule not drawn)&lt;/i&gt;" vertex="1">
+          <mxGeometry height="70" width="234" x="8" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="v3Tol91V-TR1hirwzvUr-151" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Assembler" vertex="1">
+          <mxGeometry height="340" width="233" x="10" y="2380" as="geometry" />
+        </mxCell>
+        <mxCell id="v3Tol91V-TR1hirwzvUr-2" parent="v3Tol91V-TR1hirwzvUr-151" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" value="&lt;div align=&quot;left&quot;&gt;FacEntAssembler {&lt;br&gt;&amp;nbsp; &amp;nbsp; tier: FacTier,&lt;br&gt;&amp;nbsp; &amp;nbsp; recipe: FacEntityName,&lt;br&gt;&amp;nbsp; &amp;nbsp; modules: [Option&amp;lt;FacModule&amp;gt;; 3],&lt;br&gt;}&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="210" x="10" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="v3Tol91V-TR1hirwzvUr-88" parent="v3Tol91V-TR1hirwzvUr-151" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" value="FacEntBeacon {&lt;br&gt;&amp;nbsp; &amp;nbsp; modules: [Option&amp;lt;FacModule&amp;gt;; 2],&lt;br&gt;}" vertex="1">
+          <mxGeometry height="60" width="210" x="10" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="v3Tol91V-TR1hirwzvUr-11" parent="v3Tol91V-TR1hirwzvUr-151" style="rounded=0;whiteSpace=wrap;html=1;" value="FacTier::Tier1" vertex="1">
+          <mxGeometry height="20" width="163" x="23" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="v3Tol91V-TR1hirwzvUr-12" parent="v3Tol91V-TR1hirwzvUr-151" style="rounded=0;whiteSpace=wrap;html=1;" value="FacTier::Tier2" vertex="1">
+          <mxGeometry height="20" width="163" x="23" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="v3Tol91V-TR1hirwzvUr-47" parent="v3Tol91V-TR1hirwzvUr-151" style="rounded=0;whiteSpace=wrap;html=1;" value="FacTier::Tier3" vertex="1">
+          <mxGeometry height="20" width="163" x="24" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="v3Tol91V-TR1hirwzvUr-156" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="" vertex="1">
+          <mxGeometry height="40" width="40" y="2200" as="geometry" />
+        </mxCell>
+        <mxCell id="v3Tol91V-TR1hirwzvUr-160" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="FacEntity Implementions&amp;nbsp;&lt;br&gt;in Factorio" vertex="1">
+          <mxGeometry height="80" width="200" x="50" y="1130" as="geometry" />
+        </mxCell>
+        <mxCell id="v3Tol91V-TR1hirwzvUr-161" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="FacEntity Implementions&amp;nbsp;&lt;br&gt;in Factorio" vertex="1">
+          <mxGeometry height="80" width="200" x="30" y="2210" as="geometry" />
+        </mxCell>
+        <mxCell id="v3Tol91V-TR1hirwzvUr-162" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="trait FacArea&lt;br&gt;&lt;i&gt;(magic not drawn)&lt;/i&gt;" vertex="1">
+          <mxGeometry height="30" width="120" x="100" y="1330" as="geometry" />
+        </mxCell>
+        <mxCell id="v3Tol91V-TR1hirwzvUr-163" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;align=left;verticalAlign=top;" value="&lt;div&gt;trait FacEntity {&lt;/div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;to_blueprint()&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;...&lt;div&gt;}&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="140" x="100" y="1220" as="geometry" />
+        </mxCell>
+        <mxCell id="v3Tol91V-TR1hirwzvUr-164" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" value="pub struct FacBpEntity {&lt;br&gt;&amp;nbsp; &amp;nbsp; pub entity_number: Option&amp;lt;FacBpInteger&amp;gt;,&lt;br&gt;&amp;nbsp; &amp;nbsp; pub name: String,&lt;br&gt;&amp;nbsp; &amp;nbsp; pub position: FacBpPosition,&lt;br&gt;&amp;nbsp; &amp;nbsp; pub direction: Option&amp;lt;FacDirectionEighth&amp;gt;,&lt;br&gt;&amp;nbsp; &amp;nbsp; pub neighbours: Option&amp;lt;Vec&amp;lt;FacBpInteger&amp;gt;&amp;gt;,&lt;br&gt;&amp;nbsp; &amp;nbsp; pub recipe: Option&amp;lt;String&amp;gt;,&lt;br&gt;&amp;nbsp; &amp;nbsp; pub items: Option&amp;lt;Vec&amp;lt;FacModule&amp;gt;&amp;gt;,&lt;br&gt;&amp;nbsp; &amp;nbsp; pub utype: Option&amp;lt;FacEntBeltUnderType&amp;gt;,&lt;br&gt;&amp;nbsp; &amp;nbsp; pub station: Option&amp;lt;String&amp;gt;,&lt;br&gt;&amp;nbsp; &amp;nbsp; pub infinity_settings: Option&amp;lt;FacBpInfinitySettings&amp;gt;,&lt;br&gt;&amp;nbsp; &amp;nbsp; pub schedule: Option&amp;lt;FacBpSchedule&amp;gt;,&lt;br&gt;&amp;nbsp; &amp;nbsp; pub output_priority: FacExtPriority,&lt;br&gt;&amp;nbsp; &amp;nbsp; pub input_priority: FacExtPriority,&lt;br&gt;&amp;nbsp; &amp;nbsp; pub is_output_tolerance: bool,&lt;br&gt;}" vertex="1">
+          <mxGeometry height="270" width="310" x="290" y="1220" as="geometry" />
+        </mxCell>
+        <mxCell id="v3Tol91V-TR1hirwzvUr-168" edge="1" parent="1" source="v3Tol91V-TR1hirwzvUr-160" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=0.13;exitY=0.77;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="v3Tol91V-TR1hirwzvUr-163" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="76" y="1190" />
+              <mxPoint x="80" y="1190" />
+              <mxPoint x="80" y="1260" />
+            </Array>
+            <mxPoint x="110" y="1330" as="sourcePoint" />
+            <mxPoint x="160" y="1280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v3Tol91V-TR1hirwzvUr-169" edge="1" parent="1" source="v3Tol91V-TR1hirwzvUr-160" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=0.13;exitY=0.77;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="v3Tol91V-TR1hirwzvUr-162" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="80" y="1192" />
+              <mxPoint x="80" y="1345" />
+            </Array>
+            <mxPoint x="120" y="1350" as="sourcePoint" />
+            <mxPoint x="170" y="1300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v3Tol91V-TR1hirwzvUr-170" edge="1" parent="1" source="v3Tol91V-TR1hirwzvUr-162" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.001;entryY=0.462;entryDx=0;entryDy=0;entryPerimeter=0;" target="v3Tol91V-TR1hirwzvUr-164" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="210" y="1410" as="sourcePoint" />
+            <mxPoint x="260" y="1360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v3Tol91V-TR1hirwzvUr-171" edge="1" parent="1" source="v3Tol91V-TR1hirwzvUr-163" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.002;entryY=0.148;entryDx=0;entryDy=0;entryPerimeter=0;" target="v3Tol91V-TR1hirwzvUr-164" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="240" y="1259.86" as="sourcePoint" />
+            <mxPoint x="310" y="1259.86" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v3Tol91V-TR1hirwzvUr-173" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;endWidth=52;endSize=17;width=50;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="309" y="1510" as="sourcePoint" />
+            <mxPoint x="309.24" y="1630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v3Tol91V-TR1hirwzvUr-174" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;" value="&lt;div&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="296.5" x="267" y="1900" as="geometry" />
+        </mxCell>
+        <mxCell id="v3Tol91V-TR1hirwzvUr-175" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="FacSurfaceCreateEntity" vertex="1">
+          <mxGeometry height="200" width="200" x="170" y="1640" as="geometry" />
+        </mxCell>
+        <mxCell id="v3Tol91V-TR1hirwzvUr-176" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;rounded=0;" value="&lt;div&gt;Writes&amp;nbsp;&lt;span style=&quot;color: rgb(0, 153, 0);&quot;&gt;FacByEntity&amp;nbsp;&lt;/span&gt;into&amp;nbsp;&lt;/div&gt;&lt;div&gt;the Lua language.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="180" x="180" y="1690" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
