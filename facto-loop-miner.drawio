@@ -990,7 +990,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="sz5bTSZ0unsBAL_l4prn" name="Core-Intro">
-    <mxGraphModel dx="991" dy="1265" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="877" dy="1265" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1151,7 +1151,7 @@
         <mxCell id="iiCpBllPJJe5uU8u5m43-2" edge="1" parent="1" source="j3I4RZ4AEjDXHYlokSqa-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;html=1;" target="iiCpBllPJJe5uU8u5m43-1" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="j3I4RZ4AEjDXHYlokSqa-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;" value="&lt;div&gt;Optionally reduce map from 4000 radius (8,000 x 6,000) to 3000 radius (6,000 x 6,000)&lt;/div&gt;" vertex="1">
+        <mxCell id="j3I4RZ4AEjDXHYlokSqa-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;" value="&lt;div&gt;Optionally reduce map from&lt;/div&gt;&lt;div&gt;4000 radius (8,000 x 8,000) to 3000 radius (6,000 x 6,000)&lt;/div&gt;" vertex="1">
           <mxGeometry height="80" width="180" x="250" y="293" as="geometry" />
         </mxCell>
         <mxCell id="j3I4RZ4AEjDXHYlokSqa-11" edge="1" parent="1" source="uEsH4pUK451pVd3KSLmI-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="j3I4RZ4AEjDXHYlokSqa-10" value="">
@@ -1174,13 +1174,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="j3I4RZ4AEjDXHYlokSqa-16" parent="j3I4RZ4AEjDXHYlokSqa-15" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;opencv::find_contours&lt;/div&gt;&lt;div&gt;From a 2 color image (background and Ore),&lt;/div&gt;&lt;div&gt;find &quot;contours&quot; Points around each Ore Patch&lt;/div&gt;" vertex="1">
+        <mxCell id="j3I4RZ4AEjDXHYlokSqa-16" parent="j3I4RZ4AEjDXHYlokSqa-15" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(43, 145, 175), rgb(43, 145, 175));&quot;&gt;opencv::find_contours&lt;/span&gt;&lt;/div&gt;&lt;div&gt;From a 2 color image (background and Ore),&lt;/div&gt;&lt;div&gt;find &quot;contours&quot; Points around each Ore Patch&lt;/div&gt;" vertex="1">
           <mxGeometry height="80" width="140" x="10" y="40" as="geometry" />
         </mxCell>
         <mxCell id="1-IOza2HRKhNNJmZj8TN-5" edge="1" parent="j3I4RZ4AEjDXHYlokSqa-15" source="1-IOza2HRKhNNJmZj8TN-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;html=1;" target="1-IOza2HRKhNNJmZj8TN-4" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="1-IOza2HRKhNNJmZj8TN-2" parent="j3I4RZ4AEjDXHYlokSqa-15" style="whiteSpace=wrap;html=1;rounded=0;" value="&lt;div&gt;opencv::bounding_rect&lt;/div&gt;&lt;div&gt;Define Patch Area&amp;nbsp;&lt;/div&gt;&lt;div&gt;as rectangle&amp;nbsp;&lt;/div&gt;&lt;div&gt;around Points&lt;/div&gt;" vertex="1">
+        <mxCell id="1-IOza2HRKhNNJmZj8TN-2" parent="j3I4RZ4AEjDXHYlokSqa-15" style="whiteSpace=wrap;html=1;rounded=0;" value="&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(43, 145, 175), rgb(43, 145, 175));&quot;&gt;opencv::bounding_rect&lt;/span&gt;&lt;/div&gt;&lt;div&gt;Define Patch Area&amp;nbsp;&lt;/div&gt;&lt;div&gt;as rectangle&amp;nbsp;&lt;/div&gt;&lt;div&gt;around Points&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="130" x="170" y="40" as="geometry" />
         </mxCell>
         <mxCell id="1-IOza2HRKhNNJmZj8TN-7" edge="1" parent="j3I4RZ4AEjDXHYlokSqa-15" source="1-IOza2HRKhNNJmZj8TN-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;html=1;" target="1-IOza2HRKhNNJmZj8TN-4" value="">
@@ -1212,11 +1212,14 @@
         <mxCell id="iiCpBllPJJe5uU8u5m43-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Regenerate Optimized structs with new radius" vertex="1">
           <mxGeometry height="50" width="140" x="480" y="308" as="geometry" />
         </mxCell>
+        <mxCell id="9oBFKPYQhpSx7I5trBbE-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;b&gt;Rail Network&lt;/b&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="360" y="631.5" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="y0aw1GE7-eo01JY0DHfG" name="nav-Overview">
-    <mxGraphModel dx="1096" dy="1581" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1595" dy="2300" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1224,7 +1227,7 @@
           <mxGeometry height="60" width="80" as="geometry" />
         </mxCell>
         <mxCell id="MCaK4CBFxHqbnQ1M9lyO-1" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="High Level Stack - step20-nav&amp;nbsp;" vertex="1">
-          <mxGeometry height="840" width="670" x="90" y="250" as="geometry" />
+          <mxGeometry height="840" width="750" x="90" y="250" as="geometry" />
         </mxCell>
         <mxCell id="df2_o6WtWTPYLhyYfkMD-28" parent="MCaK4CBFxHqbnQ1M9lyO-1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
           <mxGeometry height="60" width="150" x="130" y="250" as="geometry" />
@@ -1495,6 +1498,9 @@
             <mxPoint x="320" y="570" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="vIyvdboK461-zwmMGhJE-2" edge="1" parent="MCaK4CBFxHqbnQ1M9lyO-1" source="4v1Cai824h7YyHcK92ty-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;html=1;" target="vIyvdboK461-zwmMGhJE-1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="4v1Cai824h7YyHcK92ty-4" parent="MCaK4CBFxHqbnQ1M9lyO-1" style="whiteSpace=wrap;html=1;rounded=0;" value="&lt;div&gt;Add Rail&lt;/div&gt;&lt;div&gt;to VSurfacePixel&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="460" y="630" as="geometry" />
         </mxCell>
@@ -1513,8 +1519,11 @@
         <mxCell id="Jin6vfCB3cgOwS8Lz3ij-1" parent="MCaK4CBFxHqbnQ1M9lyO-1" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.jumpInArrow;dy=7.9;dx=40.18;arrowHead=33.4;" value="" vertex="1">
           <mxGeometry height="60" width="60" x="130" y="750" as="geometry" />
         </mxCell>
-        <mxCell id="df2_o6WtWTPYLhyYfkMD-36" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;rounded=0;" value="&lt;div&gt;A MinePath is a loop of rail from the MineLocation to the Base. We want to find the best one.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b style=&quot;color: light-dark(rgb(43, 145, 175), rgb(43, 145, 175));&quot;&gt;HopeSodaLink&amp;nbsp;&lt;/b&gt;is the foundational&amp;nbsp;&lt;span style=&quot;color: light-dark(rgb(0, 0, 255), rgb(0, 0, 255));&quot;&gt;struct &lt;/span&gt;representing a path of Dual Rail (side by side) exactly as represented in Factorio. Functions include go straight, turn left/right, get area. Currently v4 implemention - tricky to model this perfectly.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&quot;Mori&quot; a-star Pathfinder drives&amp;nbsp;&lt;b style=&quot;color: light-dark(rgb(43, 145, 175), rgb(43, 145, 175));&quot;&gt;HopeSodaLink&lt;/b&gt;. The next&amp;nbsp;&lt;b style=&quot;color: light-dark(rgb(43, 145, 175), rgb(43, 145, 175));&quot;&gt;HopeSodaLink&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;is verified by surface that it&#39;s area is free. Repeat with the next best link,&amp;nbsp; generating either failure or a completed MinePath.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;The remaining layers work with those MinePaths. Deciding which is best, undoing path in surface, and more. &quot;Which of 10k permutations is best?&quot; and &quot;Recover when MineLocation is deadlocked?&quot; are very complex questions&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Another highlight is the VSurface Data Structures. Hot path optimized, quickly clone-able for multi-threading, and with many useful functions&lt;/div&gt;" vertex="1">
-          <mxGeometry height="210" width="500" x="90" as="geometry" />
+        <mxCell id="vIyvdboK461-zwmMGhJE-1" parent="MCaK4CBFxHqbnQ1M9lyO-1" style="whiteSpace=wrap;html=1;rounded=0;" value="MinePath" vertex="1">
+          <mxGeometry height="60" width="90" x="620" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="df2_o6WtWTPYLhyYfkMD-36" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;rounded=0;" value="&lt;div&gt;A MinePath is a loop of rail from the MineLocation to the Base. We want to find the best one.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b style=&quot;color: light-dark(rgb(43, 145, 175), rgb(43, 145, 175));&quot;&gt;HopeSodaLink&amp;nbsp;&lt;/b&gt;is the foundational&amp;nbsp;&lt;span style=&quot;color: light-dark(rgb(0, 0, 255), rgb(0, 0, 255));&quot;&gt;struct &lt;/span&gt;representing a path of Dual Rail (side by side) exactly as represented in Factorio. Functions include go straight, turn left/right, get area. Currently v4 implemention - tricky to model this perfectly.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&quot;Mori&quot; a-star Pathfinder drives&amp;nbsp;&lt;b style=&quot;color: light-dark(rgb(43, 145, 175), rgb(43, 145, 175));&quot;&gt;HopeSodaLink&lt;/b&gt;. The next&amp;nbsp;&lt;b style=&quot;color: light-dark(rgb(43, 145, 175), rgb(43, 145, 175));&quot;&gt;HopeSodaLink&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;is verified by surface that it&#39;s area is free. Repeat with the next best link,&amp;nbsp; generating either failure or a completed MinePath.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;The remaining layers work with those MinePaths. &quot;Which of 10k permutations is best?&quot; and &quot;Recover when MineLocation is deadlocked?&quot; are very complex questions&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Another highlight is the VSurface Data Structures. Hot path optimized, quickly clone-able for multi-threading, and with many useful functions&lt;/div&gt;" vertex="1">
+          <mxGeometry height="230" width="500" x="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -1638,7 +1647,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="nX5aREclHKTdVxLmgOmy" name="Core-Pathfinding">
-    <mxGraphModel dx="901" dy="1405" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="877" dy="1265" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
