@@ -1216,7 +1216,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="y0aw1GE7-eo01JY0DHfG" name="nav-Overview">
-    <mxGraphModel dx="1239" dy="1581" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1096" dy="1581" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1224,7 +1224,7 @@
           <mxGeometry height="60" width="80" as="geometry" />
         </mxCell>
         <mxCell id="MCaK4CBFxHqbnQ1M9lyO-1" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="High Level Stack - step20-nav&amp;nbsp;" vertex="1">
-          <mxGeometry height="920" width="670" x="100" y="170" as="geometry" />
+          <mxGeometry height="840" width="670" x="90" y="250" as="geometry" />
         </mxCell>
         <mxCell id="df2_o6WtWTPYLhyYfkMD-28" parent="MCaK4CBFxHqbnQ1M9lyO-1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
           <mxGeometry height="60" width="150" x="130" y="250" as="geometry" />
@@ -1476,7 +1476,7 @@
         <mxCell id="4v1Cai824h7YyHcK92ty-5" edge="1" parent="MCaK4CBFxHqbnQ1M9lyO-1" source="df2_o6WtWTPYLhyYfkMD-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;libavoidRouting=1;orthogonalLoop=1;jettySize=auto;html=1;" target="4v1Cai824h7YyHcK92ty-4" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="df2_o6WtWTPYLhyYfkMD-13" parent="MCaK4CBFxHqbnQ1M9lyO-1" style="rounded=0;whiteSpace=wrap;html=1;" value="a-star Pathfinding" vertex="1">
+        <mxCell id="df2_o6WtWTPYLhyYfkMD-13" parent="MCaK4CBFxHqbnQ1M9lyO-1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;&quot;Mori&quot;&lt;/div&gt;&lt;div&gt;a-star Pathfinding&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="140" x="290" y="630" as="geometry" />
         </mxCell>
         <mxCell id="df2_o6WtWTPYLhyYfkMD-21" parent="MCaK4CBFxHqbnQ1M9lyO-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;Executing each&lt;/div&gt;&lt;div&gt;Permutation needs&lt;/div&gt;" vertex="1">
@@ -1510,8 +1510,11 @@
             <mxPoint x="380" y="700" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="df2_o6WtWTPYLhyYfkMD-36" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;rounded=0;" value="&lt;div&gt;A MinePath is a loop of rail from the MineLocation to the Base. We want to find the best one.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;HopeSodaLink is v4 of the Rail Generator layer. It&#39;s tricky to model perfectly. However it&#39;s only a small part of the stack. &quot;Is this free?&quot;, &quot;Which of 10k permutations is best?&quot;, &quot;Recover when MineLocation is deadlocked?&quot; are all very complex questions&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Another highlight is the VSurface Data Structures. Hot path optimized, quickly clone-able for multi-threading, and with many useful functions&lt;/div&gt;" vertex="1">
-          <mxGeometry height="140" width="435" x="135" as="geometry" />
+        <mxCell id="Jin6vfCB3cgOwS8Lz3ij-1" parent="MCaK4CBFxHqbnQ1M9lyO-1" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.jumpInArrow;dy=7.9;dx=40.18;arrowHead=33.4;" value="" vertex="1">
+          <mxGeometry height="60" width="60" x="130" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="df2_o6WtWTPYLhyYfkMD-36" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;rounded=0;" value="&lt;div&gt;A MinePath is a loop of rail from the MineLocation to the Base. We want to find the best one.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b style=&quot;color: light-dark(rgb(43, 145, 175), rgb(43, 145, 175));&quot;&gt;HopeSodaLink&amp;nbsp;&lt;/b&gt;is the foundational&amp;nbsp;&lt;span style=&quot;color: light-dark(rgb(0, 0, 255), rgb(0, 0, 255));&quot;&gt;struct &lt;/span&gt;representing a path of Dual Rail (side by side) exactly as represented in Factorio. Functions include go straight, turn left/right, get area. Currently v4 implemention - tricky to model this perfectly.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&quot;Mori&quot; a-star Pathfinder drives&amp;nbsp;&lt;b style=&quot;color: light-dark(rgb(43, 145, 175), rgb(43, 145, 175));&quot;&gt;HopeSodaLink&lt;/b&gt;. The next&amp;nbsp;&lt;b style=&quot;color: light-dark(rgb(43, 145, 175), rgb(43, 145, 175));&quot;&gt;HopeSodaLink&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;is verified by surface that it&#39;s area is free. Repeat with the next best link,&amp;nbsp; generating either failure or a completed MinePath.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;The remaining layers work with those MinePaths. Deciding which is best, undoing path in surface, and more. &quot;Which of 10k permutations is best?&quot; and &quot;Recover when MineLocation is deadlocked?&quot; are very complex questions&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Another highlight is the VSurface Data Structures. Hot path optimized, quickly clone-able for multi-threading, and with many useful functions&lt;/div&gt;" vertex="1">
+          <mxGeometry height="210" width="500" x="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
